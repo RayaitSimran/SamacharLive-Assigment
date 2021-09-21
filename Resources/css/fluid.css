@@ -1,0 +1,118 @@
+/* Extra small devices (phones,450px and down) */
+@media only screen and (max-width: 450px) {
+  .quote {
+    width: 13em;
+    top: 20%;
+    left: 20%;
+  }
+  .event-img {
+    width: 80%;
+  }
+  .footer {
+    font-size: 70%;
+  }
+
+  .navbutton {
+    margin-top: 2%;
+  }
+  .tourbutton {
+    margin: 20% 0px 10% 34%;
+  }
+  .tour1,
+  .tour2,
+  .tour3,
+  .tour4 {
+    width: 100%;
+  }
+  .explore-heading {
+    margin-top: 0%;
+  }
+  .header-para {
+    font-size: 0.9rem;
+  }
+  .line:after {
+    margin: 3px auto 0px auto;
+  }
+  .header-heading h1 {
+    font-size: 1rem;
+  }
+  .header-heading {
+    padding: 9px 0 1px;
+  }
+  .headerbutton {
+    padding: 7px;
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+  .header-box {
+    top: 85%;
+  }
+}
+/* Extra small devices (phones, 600px and 450px) */
+@media (min-width: 450px) and (max-width: 600px) {
+  .quote {
+    width: 15em;
+  }
+  .explore-heading {
+    margin-top: 0;
+  }
+  .tourbutton {
+    margin-top: 20%;
+  }
+  .tourimg {
+    justify-content: center;
+    display: grid;
+  }
+  .header-box {
+    top: 73%;
+  }
+  .navbutton {
+    margin-top: 2%;
+  }
+  .tourbutton {
+    margin: 20% 0px 10% 34%;
+  }
+  .explore {
+    margin-top: 20%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .explore-heading {
+    margin-top: 10%;
+  }
+  .tourbutton {
+    margin: 20% 0 10% 0px;
+  }
+  .tourimg {
+    justify-content: center;
+    display: grid;
+  }
+  .header-box {
+    top: 70%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1100px) {
+  .event-img {
+    width: 300px;
+  }
+  .explore-heading {
+    margin-top: 20%;
+  }
+
+  .header-box {
+    top: 60%;
+  }
+  .tourbutton {
+    margin: 10% 0;
+  }
+  .tour-heading {
+    margin-top: 10%;
+  }
+  .explore {
+    margin-top: 10%;
+  }
+}

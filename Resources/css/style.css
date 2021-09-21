@@ -1,0 +1,270 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: white;
+  color: black;
+  text-rendering: optimizeLegibility;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(img/header-bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+.nav-item {
+  font-weight: 500;
+}
+.header-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.header-box-text {
+  margin-bottom: 100px;
+}
+.header-para {
+  color: white;
+  font-size: 1.5rem;
+}
+#navbar li a:link,
+#navbar li a:visited {
+  transition: color 0.7s;
+}
+#navbar li a:hover,
+#navbar li a:active {
+  color: #ff0241;
+}
+
+.line:after {
+  display: block;
+  display: block;
+  height: 2px;
+  width: 110px;
+  background-color: #ff0241;
+  content: " ";
+  margin: 28px auto 42px auto;
+}
+.header-heading {
+  font-size: 4rem;
+  color: white;
+  font-weight: 600;
+  padding: 16px 0 25px;
+  text-transform: uppercase;
+}
+.button:link,
+.button:visited {
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 200px;
+}
+.btn-full:link,
+.btn-full:visited {
+  background-color: #ff0241;
+  color: white;
+  display: inline-block;
+  font-weight: 600;
+}
+.btn-full:hover,
+.btn-full:active {
+  background-color: #cc0234;
+}
+.navbutton {
+  border-radius: 20px;
+  background-color: #ff0241;
+  color: white;
+  display: inline-block;
+  font-weight: 500;
+  padding: 10px 5px;
+  border: none;
+  width: 160px;
+}
+.navbutton:hover {
+  background-color: #cc0234;
+}
+#logoup {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 26px;
+}
+#logodown {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 17px;
+}
+/************************ Quote section ********************************/
+.quoteSection {
+  background-color: #f4f4f4;
+  height: 300px;
+  top: -101px;
+}
+.quote {
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  width: 40%;
+  top: 30%;
+  left: 30%;
+}
+blockquote {
+  margin-bottom: 4rem;
+}
+
+/* ************************Event section****************************** */
+#event-section {
+  text-align: center;
+}
+.section-heading {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2.5em;
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+.events {
+  margin-top: 10%;
+}
+
+.event-img {
+  height: 300px;
+  width: auto;
+  box-shadow: 8px 8px 1px 1px #c4c4c4;
+  border-radius: 5px;
+}
+.eventdetail {
+  padding: 20px 50px;
+  margin-top: 8%;
+}
+.eventheading {
+  font-size: 18px;
+  font-weight: 700;
+}
+.eventtext {
+  margin-top: 5%;
+  font-weight: 500;
+}
+.eventbutton {
+  margin: 2% 0 2% 0;
+}
+.smallarrow {
+  margin-left: 6px;
+}
+.explore-box {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(img/explore-bg.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  margin-top: 4%;
+}
+.explore {
+  margin-top: 3%;
+
+  position: absolute;
+}
+.explore-heading {
+  font-size: 4rem;
+  color: white;
+  font-weight: 600;
+  padding: 16px 0 25px;
+  text-transform: uppercase;
+  margin-top: 20%;
+}
+.explore-para p {
+  color: white;
+  font-size: 1em;
+  font-weight: 400;
+}
+.line-explore-tour:after {
+  display: block;
+
+  height: 2px;
+  width: 58px;
+  background-color: #ff0241;
+  content: " ";
+  margin: 12px 30px 33px 1px;
+}
+.explorebutton {
+  margin: 10% 0 5% 0;
+}
+/*********************Tour Section****************  */
+.tour-heading {
+  line-height: 1.2;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 16px 0 0px;
+  text-transform: uppercase;
+  margin-top: 20%;
+}
+.tour-para {
+  color: black;
+  font-weight: 500;
+}
+.tour-info {
+  padding: 10px 60px 0px 0px;
+}
+.tourbutton {
+  margin: 50% 0 40% 0;
+}
+
+.tour1 {
+  height: 264px;
+  width: 350px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.tour2 {
+  height: 400px;
+  width: 350px;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.tour3 {
+  height: 400px;
+  width: 350px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.tour4 {
+  height: 264px;
+  width: 350px;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+/* **************************Footer Section***************************** */
+.footer {
+  background-color: rgb(22, 21, 21);
+  color: white;
+  height: 150px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 10%;
+}
+.footerinfo {
+  position: absolute;
+  margin: 50px auto 0 auto;
+  display: block;
+  height: 100px;
+  width: 100%;
+  font-size: 0.9em;
+}
